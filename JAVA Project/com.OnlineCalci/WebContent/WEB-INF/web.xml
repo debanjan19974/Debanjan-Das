@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>com.OnlineCalci</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+<!-- This is for addition -->  
+ <servlet>
+  <servlet-name>Add</servlet-name>
+  <servlet-class>com.OnlineCalci.AdditionServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>Add</servlet-name>
+  <url-pattern>/a</url-pattern>
+ </servlet-mapping>
+ 
+ <!-- This is for subtraction -->  
+<servlet>
+  <servlet-name>Sub</servlet-name>
+  <servlet-class>com.OnlineCalci.SubtractionServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>Sub</servlet-name>
+  <url-pattern>/b</url-pattern>
+ </servlet-mapping>
+ <!-- This is for multiplication -->  
+ <servlet>
+  <servlet-name>Mul</servlet-name>
+  <servlet-class>com.OnlineCalci.MultiplicationServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>Mul</servlet-name>
+  <url-pattern>/c</url-pattern>
+ </servlet-mapping>
+ <!-- This is for division -->  
+<servlet>
+  <servlet-name>Div</servlet-name>
+  <servlet-class>com.OnlineCalci.DivisionServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>Div</servlet-name>
+  <url-pattern>/d</url-pattern>
+ </servlet-mapping>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</web-app>

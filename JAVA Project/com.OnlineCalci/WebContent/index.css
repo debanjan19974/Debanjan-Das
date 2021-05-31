@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html{
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+}
+
+
+.container{
+    background-color: rgba(255, 255, 255, 0.171);
+    margin: 10% 20% 19% 20%;
+    border-radius: 10px;
+    padding: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+}
+.container:hover{
+    
+    background-color: rgba(253, 253, 253, 0.849);
+
+}
+
+header{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+#options{
+    margin-top: 10px;
+    margin-left: 19%;
+    
+}
+
+button{
+    font-size: 20px;
+    padding: 10px;
+}
+a:link{
+  
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
